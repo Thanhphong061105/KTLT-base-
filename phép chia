@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,b,phepchia;
+    cin >> a >> b;
+    phepchia=a/b;
+    cout << phepchia;
+    return 0;
+}
