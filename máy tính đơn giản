@@ -1,0 +1,36 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main(){
+	double a,b;
+	char phepToan;
+	      cin >> a >> phepToan >> b;
+		   
+    double ketQua;
+    switch (phepToan) {
+        case '+':
+            ketQua = a + b;
+            break;
+        case '-':
+            ketQua = a - b;
+            break;
+        case '*':
+            ketQua = a * b;
+            break;
+        case '/':
+            if (b == 0) {
+                cout << "ze" << endl;
+                return 1; 
+            } else {
+                ketQua = a / b;
+            }
+            break;
+        
+            return 1;
+    }
+    cout << fixed << setprecision(3);
+    cout << ketQua << endl;
+    
+}
