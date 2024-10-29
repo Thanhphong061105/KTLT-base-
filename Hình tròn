@@ -1,0 +1,19 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main(){
+	double r;
+	const double pi =3.14;
+	  cin >> r;
+	 double chuVi = 2 * pi * r;
+    double dienTich = pi * r * r;
+    
+    cout << fixed << setprecision(3);
+    cout << chuVi << endl;
+    cout << dienTich << endl;
+    
+    return 0;
+    
+ 	
