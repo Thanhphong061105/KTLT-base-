@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int n, k;
+    cin >> n >> k;
+
+    int songay = 0;
+    while (n > 0) {
+        n--; 
+        songay++;
+        if (songay % k == 0) {
+            n++; 
+        }
+    }
+
+    cout << songay << endl;
+
+    return 0;
+}
